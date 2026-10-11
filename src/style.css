@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+canvas {
+  display: block;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+#app {
+  position: fixed;
+  z-index: 1;
+  pointer-events: none;
+  color: white;
+}
+
+#app button {
+  pointer-events: auto;
+}
